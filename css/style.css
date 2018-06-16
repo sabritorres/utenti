@@ -1,0 +1,10 @@
+.utente{
+    border:1px solid #eeee;
+}
+i{
+    font-size:30px;
+    color:grey;
+}
+i:hover{
+    color:black;
+}
