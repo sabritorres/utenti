@@ -4,7 +4,9 @@
 i{
     font-size:30px;
     color:grey;
+    transition:transform .2s;
 }
 i:hover{
-    color:black;
+    color:rgb(192, 29, 151);
+    transform:scale(1.5);
 }
