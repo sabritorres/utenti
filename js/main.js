@@ -15,7 +15,7 @@ $(function(){
                 let row3 = $('<div></div>').addClass("row");
 
                 let divimmagine = $('<div></div>').addClass("col-md-12 text-center");
-                let immagine = $('<img></img>').addClass("img-fluid rounded-circle").attr("src",utente.picture.medium);
+                let immagine = $('<img></img>').addClass("img-fluid rounded-circle").attr("src", utente.picture.medium);
 
                 let nomecompleto = `${utente.name.title.charAt(0).toUpperCase()}${utente.name.title.slice(1).toLowerCase()}               
                 ${utente.name.first.charAt(0).toUpperCase()}${utente.name.first.slice(1).toLowerCase()}
